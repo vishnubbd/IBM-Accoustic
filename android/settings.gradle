@@ -1,0 +1,5 @@
+rootProject.name = 'LatestCode'
+include ':react-native-acoustic-mobile-push'
+project(':react-native-acoustic-mobile-push').projectDir = new File(rootProject.projectDir, '../plugins/react-native-acoustic-mobile-push/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
