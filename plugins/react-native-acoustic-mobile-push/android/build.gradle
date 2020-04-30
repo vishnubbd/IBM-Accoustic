@@ -26,13 +26,13 @@ dependencies {
 
   // Use environment variable ANDROID_X if you're using React Native 0.60 or later
   // If running from Android Studio and React Native 0.60, comment out the `if`
-  if(System.getenv("ANDROID_X")) {
+  // if(System.getenv("ANDROID_X")) {
     println "Using Android X Libraries"
     implementation "androidx.core:core:1+"
-  } else {
-    println "Using Android Support Libraries"
-    implementation 'com.android.support:appcompat-v7:28.0.0'
-  }
+  //} else {
+  //  println "Using Android Support Libraries"
+  //  implementation 'com.android.support:appcompat-v7:28.0.0'
+  //}
 
 }
 
